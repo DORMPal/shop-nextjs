@@ -17,11 +17,30 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
+}
+
+.boxx{
+  width: 40%;
+  height: 500px;
+  /* align-content: center; */
+  background-color: rgb(87, 210, 171);
+  text-align: center;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.login{
+  margin-top: 20px;
+  width: 10em;
+  height: 2em;
+  border-radius: 10px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.register{
+  margin-top: 20px;
 }
